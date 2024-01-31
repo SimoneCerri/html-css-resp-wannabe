@@ -131,8 +131,16 @@ img {
 
  @media screen and ( max-width: 768px )
  {
-    & .text-center
+    & .container
     {
-        width: 1140px;
+        width: 100vw ;
+        max-width: 767px;
     }
+}
+
+ @media screen and (max-width: 480px)
+ {
+    
  }
+
+ 
