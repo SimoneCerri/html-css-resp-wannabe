@@ -131,11 +131,12 @@ img {
 
  @media screen and ( max-width: 768px )
  {
-    & .container
+    .container
     {
-        width: 100vw ;
-        max-width: 767px;
+        max-width: 768px;
+        width: 100%;
     }
+    
 }
 
  @media screen and (max-width: 480px)
